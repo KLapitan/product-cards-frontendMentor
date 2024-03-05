@@ -9,12 +9,13 @@
 
   
   body{
-    display: flex;
+    display: flex; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: hsl(30, 38%, 92%);
-    flex-direction: column;
+   
 }
  
 #wrapper{
