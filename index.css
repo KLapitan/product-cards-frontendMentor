@@ -1,0 +1,128 @@
+
+  *{
+  margin: 0;
+  padding: 0;
+  font-size: 14;
+  font-family: fraunces , Monserrat;
+  }
+  
+
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    
+}
+ 
+#wrapper{
+
+ display: flex;
+    flex-direction: row;
+     display: flex;
+    flex-direction: row;
+    height: 720px;
+    width: 970px;
+    border-radius: 20px;
+    background-color:hsl(0, 0%, 100%);
+}
+
+img{
+ width: 50%;
+ border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+#description-wrapper{
+
+  gap:40px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+
+
+#title-wrapper{
+margin-top: 50px;
+  margin-left: 40px;
+}
+ 
+ 
+#title-wrapper .perfume-text{
+font-size:20px;
+margin-bottom: 20px;
+font-weight: 500;
+font-family: Montserrat; 
+color: hsl(228, 12%, 48%)
+}
+
+h2 {
+margin-top: 10px;
+font-size: 50px;
+width: 300px;
+line-height: 50px;
+color: hsl(212, 21%, 14%);
+
+}
+
+#description{
+font-size: 24px;
+color: hsl(228, 12%, 48%);
+font-family: Montserrat;
+font-weight: 500;
+width: 390px;
+margin-left: 40px;
+line-height: 32px;
+margin-bottom: 0pxs;
+}
+
+#price-description{
+
+width: 390px;
+margin-left: 40px;
+}
+
+span  {
+
+margin-top: 0px;
+}
+
+
+.price1{
+font-size:3rem;
+width: 200px;
+color: hsl(158, 36%, 37%);
+font-family: Fraunces;
+
+}
+.price2{
+margin-left:10px;
+text-decoration: line-through;
+color: hsl(228, 12%, 48%);
+font-family: Montserrat;
+font-size:1.5rem;
+font-weight: 500;
+}
+
+button{
+width: 80%;
+margin-left: 40px;
+padding: 30px 19px 30px 19px;
+border-radius: 10px;
+border: none;
+background-color: hsl(158, 36%, 37%);
+color:hsl(0, 0%, 100%) ;
+font-family: Montserrat;
+font-size: 28px;
+font-weight: 700;
+
+}
+
+.cart-pic{
+width: 30px; /* Adjust the width as needed */
+height: 26px; /* Adjust the height as needed */
+margin-right: 15px;
+}
